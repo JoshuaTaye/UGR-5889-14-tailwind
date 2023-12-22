@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Joshua Taye</title>
-    <link href="styles.css" rel="stylesheet" />
+    <link href="../dist/output.css" rel="stylesheet" />
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
@@ -60,52 +60,52 @@
       </nav>
     </header>
     <main>
-      <section class="flex flex-col items-center">
-        <div class="text-center">
-          <h1 class="text-7xl font-serif my-14">JOSHUA TAYE</h1>
-        </div>
-        <div
-          class="container w-10/12 m-6 text-center bg-cyan-950 py-6 rounded-3xl"
-        >
-          <h1 class="text-5xl font-serif my-6">ABOUT ME</h1>
-          <div class="grid grid-cols-1 md:grid-cols-2">
-            <div id="img" class="p-5 flex items-center justify-center">
-              <img
-                src="images/josh.jpg"
-                alt="Josh Picture"
-                class="w-10/12 rounded-3xl"
-              />
-            </div>
-            <div id="text" class="px-16">
-              <div class="flex items-center flex-col h-full justify-center">
-                <p class="leading-loose text-xl">
-                  I am a third-year software engineering student at
-                  <a
-                    href="http://www.aait.edu.et/"
-                    class="text-sky-50 hover:text-sky-300"
-                    target="_blank"
-                    >AAiT</a
-                  >. I was born in 2003 in Addis, where I'm also currently
-                  living, I attended
-                  <a
-                    class="text-sky-50 hover:text-sky-300"
-                    href="https://lidetacatholiccathedral.com/"
-                    target="_blank"
-                  >
-                    Lideta Catholic Cathedral School</a
-                  >
-                  from first grade to senior year. I then joined Addis Ababa
-                  University in 2021, where I’m currently attending. Since
-                  childhood, I’ve always been captivated by the idea of
-                  computers. Hence, I can say that joining SiTE has been one of
-                  the most fulfilling experiences of my life.
-                </p>
-                <div class="self-end">
-                  <a
-                    class="hero__link text-sky-50 hover:text-sky-300"
-                    href="about.html"
-                    >Read More >></a
-                  >
+      <section id="hero">
+        <div class="flex flex-col items-center">
+          <div class="text-center">
+            <h1 class="text-7xl font-serif my-14">JOSHUA TAYE</h1>
+          </div>
+          <div
+            class="container w-10/12 m-6 text-center bg-cyan-950 py-6 rounded-3xl"
+          >
+            <h1 class="text-5xl font-serif my-6">ABOUT ME</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2">
+              <div id="img" class="p-5 flex items-center justify-center">
+                <img
+                  src="images/josh.jpg"
+                  alt="Josh Picture"
+                  class="w-10/12 rounded-3xl"
+                />
+              </div>
+              <div id="text" class="px-16">
+                <div class="flex items-center flex-col h-full justify-center">
+                  <p class="text-xl leading-loose">
+                    I am a third-year software engineering student at
+                    <a
+                      href="http://www.aait.edu.et/"
+                      class="text-sky-50 hover:text-sky-300"
+                      target="_blank"
+                      >AAiT</a
+                    >. I was born in 2003 in Addis, where I'm also currently
+                    living, I attended
+                    <a
+                      class="text-sky-50 hover:text-sky-300"
+                      href="https://lidetacatholiccathedral.com/"
+                      target="_blank"
+                    >
+                      Lideta Catholic Cathedral School</a
+                    >
+                    from first grade to senior year. I then joined Addis Ababa
+                    University in 2021, where I’m currently attending. Since
+                    childhood, I’ve always been captivated by the idea of
+                    computers. Hence, I can say that joining SiTE has been one
+                    of the most fulfilling experiences of my life.
+                  </p>
+                  <div class="self-end">
+                    <a class="text-sky-50 hover:text-sky-300" href="about.html"
+                      >Read More >></a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
@@ -184,59 +184,56 @@
                 </p>
               </div>
               <div class="text-right" id="end">
-                <a class="exp__link--read-more link" href="portfolio.html"
-                  >Read More...</a
-                >
+                <a href="portfolio.html">Read More...</a>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section
-        id="hobbies"
-        class="flex my-16 flex-col items-center justify-center"
-      >
-        <div class="w-11/12">
-          <div class="flex justify-center">
-            <h1 class="text-3xl font-serif pt-16">
-              Life Through My Lens - Photo and Video Gallery
-            </h1>
-          </div>
-          <div id="video-container" class="relative is-vcentered my-6">
-            <div class="wrapper rounded-3xl">
-              <video
-                id="video"
-                class="rounded-3xl h-full"
-                width="100%"
-                height="400px"
-                autoplay
-                loop
-                muted
+      <section id="hobbies">
+        <div class="flex my-16 flex-col items-center justify-center">
+          <div class="w-11/12">
+            <div class="flex justify-center">
+              <h1 class="text-3xl font-serif pt-16">
+                Life Through My Lens - Photo and Video Gallery
+              </h1>
+            </div>
+            <div id="video-container" class="relative is-vcentered my-6">
+              <div class="rounded-3xl">
+                <video
+                  id="video"
+                  class="rounded-3xl h-full"
+                  width="100%"
+                  height="400px"
+                  autoplay
+                  loop
+                  muted
+                >
+                  <source src="" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <div
+                class="w-10/12 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center"
               >
-                <source src="" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+                <p id="title-overlay" class="text-5xl font-serif"></p>
+                <p id="paragraph-overlay" class="leading-tight"></p>
+              </div>
             </div>
-            <div
-              class="w-10/12 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center"
-            >
-              <p id="title-overlay" class="text-5xl font-serif"></p>
-              <p id="paragraph-overlay" class="leading-tight"></p>
+            <div class="text-center">
+              <button
+                class="px-6 mx-6 py-3 text-lg font-bold transition-all duration-200 bg-gray-900 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+                onclick="prevVideo()"
+              >
+                Previous
+              </button>
+              <button
+                class="px-6 mx-6 py-3 text-lg font-bold transition-all duration-200 bg-gray-900 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+                onclick="nextVideo()"
+              >
+                Next
+              </button>
             </div>
-          </div>
-          <div class="button-wrapper text-center">
-            <button
-              class="px-6 mx-6 py-3 text-lg font-bold transition-all duration-200 bg-gray-900 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
-              onclick="prevVideo()"
-            >
-              Previous
-            </button>
-            <button
-              class="px-6 mx-6 py-3 text-lg font-bold transition-all duration-200 bg-gray-900 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
-              onclick="nextVideo()"
-            >
-              Next
-            </button>
           </div>
         </div>
       </section>
