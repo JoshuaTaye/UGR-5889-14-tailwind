@@ -40,7 +40,7 @@ function sendMessage(message) {
 
 function showContact() {
   let contactInfo = document.getElementById("contact-info");
-  if (contactInfo.classList.contains('hidden')) {
+  if (contactInfo.classList.contains("hidden")) {
     contactInfo.classList.remove("hidden");
   } else {
     contactInfo.classList.add("hidden");
@@ -78,19 +78,19 @@ itself. It's a simple act that transcends its simplicity,
 inviting me to witness the beauty that often escapes
 hurried gazes.`;
 const videoList = [
-  { path: "videos/megenagna.mp4", title: "መገናኛ", paragraph: p1 },
+  { path: "src/videos/megenagna.mp4", title: "መገናኛ", paragraph: p1 },
   {
-    path: "videos/birdy.mp4",
+    path: "src/videos/Birdy.mp4",
     title: "Intricacy",
     paragraph: p2,
   },
   {
-    path: "videos/clouds.mp4",
+    path: "src/videos/clouds.mp4",
     title: "Clouds",
     paragraph: p3,
   },
   {
-    path: "videos/walking.mp4",
+    path: "src/videos/walking.mp4",
     title: "Walking",
     paragraph: p4,
   },
